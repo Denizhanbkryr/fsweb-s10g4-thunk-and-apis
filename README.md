@@ -20,6 +20,8 @@ Daha önceki günlerde redux store'u oluşturmayı, middleware kavramını, useS
 
 ### Görev 2: Proje Gereksinimleri
 
+<!-- https://official-joke-api.appspot.com/random_joke -->
+
 Bu projede kullanmak için öncelikle bir API seçmelisiniz. [Bu adresten](https://apipheny.io/free-api/) ücretsiz API'ları inceleyebilir, projede kullanmak istediğiniz API'ı seçebilirsiniz. \*_Cat Facts, Bored, Dogs ve Jokes API_'ları bu proje için uygundur; yine de beğendiğiniz başka bir API'ı da kullanabilirsiniz. Kullanacağınız bazı `action`lar, `index.js` içerisindeki `store` ve `reducers.js` içerisindeki `initialState` sizin için oluşturuldu. Sizden eksik actionları ve reducerı tamamlamanız, yazacağınız async action creator'ı, redux-thunk ile kullanmanız, favorileri `localStorage` içerisine eklemeniz ve oradan kullanmanız bekleniyor.
 
 - Sayfa ilk açıldığında, API'dan yeni bir öge istenmeli
